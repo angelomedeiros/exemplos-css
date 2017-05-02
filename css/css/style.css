@@ -1,0 +1,171 @@
+@import url(grid.css);
+@import url(reset.css);
+@import url(buttons.css);
+@import url(typografy.css);
+@import url(icons.css);
+@import url(menu.css);
+
+body{
+	font-family: 'Open Sans', sans-serif;
+	color: rgb(130,130,130);
+}
+
+body header .row:first-child{
+	position: fixed;
+	width: 100%;
+	top:0px;
+	left:0px;
+	padding: 10px 50px 10px 50px;
+	z-index: 10;
+	background-color: rgba(51, 34, 25, 0.95);
+}
+
+body main{
+	line-height: 25px;
+}
+
+#header a{
+	color: #fff;
+	transition: ease .5s all;
+}
+
+#header nav a:hover, #header a.active{
+	background-color: rgba(84,209,84,0.3);		
+}
+
+#header .active:hover {
+	background-color: rgba(84,209,84,0.6);
+}
+
+#header .navegation a{
+	display: inline-block;
+	vertical-align: top;
+	zoom: 1; /* Fix for IE7 */
+	*display: inline; /* Fix for IE7 */
+	padding: 10px;
+	border-radius: 5px;
+	color: #fff;
+} 
+
+#header{
+	background: #000 no-repeat fixed center;
+	background-size: cover;
+	color: #fff;
+	padding-top: 30px;
+	width: 100%;
+	height: 660px;
+	position: relative;
+}
+
+#header nav{
+	text-align: right;
+}
+
+#header nav ul, #header ul li {
+	display: inline-block;
+}
+
+#header .title{
+	position: absolute;
+	left: 0;
+	top: 50%;	
+	text-align: center;
+	-webkit-transform: translate(0%,-50%);
+	   -moz-transform: translate(0%,-50%);
+	    -ms-transform: translate(0%,-50%);
+	     -o-transform: translate(0%,-50%);
+	        transform: translate(0%,-50%);
+}
+
+#header h1{
+	font-size: 54px;
+	line-height: 60px;	
+}
+
+.btn:hover{
+	background-color: rgb(84,180,84);
+	transition: ease .5s all;
+}
+
+.btn{
+	color: #fff;
+	font-size: 20px;
+	display: inline-block;
+	vertical-align: top;
+	zoom: 1; /* Fix for IE7 */
+	*display: inline; /* Fix for IE7 */
+	background-color: rgb(84,209,84);
+	padding: 10px 30px;
+	border-radius: 30px;
+	text-decoration: none;	
+}
+
+.section{
+	padding: 30px 0;
+}
+
+.section-center{
+	text-align: center;
+}
+
+#footer{
+	background-color: rgb(51,51,51);
+	text-align: left;
+	padding: 30px 0 30px 0;
+}
+
+#footer, #footer a{
+	color: rgb(204,204,204);
+}
+
+#footer h3:after{
+	content: '';
+	display: block;
+	border-bottom: 2px solid rgb(204,204,204);
+	width: 30px;
+}
+
+#footer h3, #footer nav, li{
+	text-transform: uppercase;
+}
+
+#footer nav li{
+	padding: 3px 0 3px 0;
+}
+
+#footer nav li a:hover{
+	color: rgb(255,255,255);
+}
+
+#footer .social{
+	height: 200px;
+	line-height: 200px;
+	text-align: right;
+}
+
+#footer .social img{
+	opacity: 1;
+	vertical-align: middle;
+	padding: 10px;
+	transition: ease 0.5s all;
+}
+
+#footer .social img:hover{
+	opacity: 0.5;
+}
+
+#copyright{
+	padding:10px 0;
+	text-align: center;
+	background-color: black;
+}
+
+@media (max-width: 992px){
+    #header, #header nav{
+    	text-align: center;
+    }
+    #header h1{
+    	font-size: 30px;
+    }
+   
+}
