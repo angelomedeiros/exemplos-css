@@ -10,4 +10,6 @@
 			  /* cursor: wait;  */
 			  /* cursor: help; */
 			  /* cursor: url(""); */
+
+			  user-select: none; /* Faz com que o item não possa ser selecionado */
 		}
