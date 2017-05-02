@@ -1,4 +1,13 @@
 .ambiente{
 			  white-space: nowrap;
 			  overflow-x: scroll;
+			  /* cursor: auto; */
+			  /* cursor: crosshair; */
+			  /* cursor: default;	 */
+			  /* cursor: pointer; */   
+			  /* cursor: move; */
+			  /* cursor: text; */
+			  /* cursor: wait;  */
+			  /* cursor: help; */
+			  /* cursor: url(""); */
 		}
